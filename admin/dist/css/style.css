@@ -1,0 +1,13 @@
+table, th, td {
+	margin-top: 50px;
+	margin-right: 0px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+th, td {
+    padding: 15px;
+}
+
+

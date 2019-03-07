@@ -1,0 +1,331 @@
+.form-margin {
+	margin-top:20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+}
+
+
+/*------------- Top bar----------------*/
+.jumbotron img{
+    width: 100px;
+}
+
+body {
+  background: #fcfcfc;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: black;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+a:hover, a:active, a:focus {
+  color: #ffffff;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+  color: black;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: black;
+
+}
+
+/*------------- Top bar----------------*/
+#top {
+    width: 100%;
+    background: #f0f0f0;
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 0;
+
+}
+#top .contact-action { margin-bottom: 0; }
+#top p i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+#top .login-cart li {
+    float: left;
+    color: transparent;
+}
+#top .login-cart li a {
+    
+    padding: 0 15px;
+    font-size: 14px;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+}
+#top .login-cart li a:hover {
+    color: #555;
+}
+#top .login-cart li a i {
+    margin-right: 3px;
+}
+header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cart .dropdown {
+    padding: 10px;
+    
+}
+.cart .dropup .caret {
+    margin-top: -36px;
+    margin-left: -130px;
+    text-align: left;
+    border-bottom: 4px solid #FFF;
+}
+.cart .dropdown-menu {
+    text-align: center;
+    width: 220px;
+    margin-top: 7px;
+}
+.cart .dropdown-cart-body {
+    margin: 0 0 15px 0;
+}
+.cart .dropdown-menu img {
+    border: 1px solid #dedede;
+    border-radius:100%;
+    height: 64px;
+    width: 64px;
+    margin-left: 10px;
+    padding: 8px;
+}
+.cart .dropdown-menu h6 {
+    margin-top: 20px;
+}
+.cart .dropdown-menu h6 span {
+    color: #90c322;
+}
+.cart .dropdown-menu button {
+    margin: 15px 0;
+}
+
+
+#contact {
+  padding: 30px 0;
+}
+
+#contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color:    #6e8d67;
+}
+
+#contact .contact-info address, #contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#contact .contact-info a {
+  color: black;
+}
+
+#contact .contact-info a:hover {
+  color:    #6e8d67;
+}
+
+#contact .contact-address, #contact .contact-phone, #contact .contact-instagram {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #contact .contact-address, #contact .contact-phone, #contact .contact-instagram {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+}
+
+#contact #google-map {
+  height: 290px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  #contact #google-map {
+    margin-top: 20px;
+  }
+}
+
+#contact .form #sendmessage {
+  color: #50d8af;
+  border: 1px solid #50d8af;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input, #contact .form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#contact .form button[type="submit"] {
+  background: #50d8af;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #2dc899;
+}
+
+.footer-bg {
+  background-color: #6acc3c;
+}
+
+.nav-bg {
+  background-color: #6acc3c;
+}
+
+.icon-footer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row-product {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.cart {
+  padding-top: 10px;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 1px;
+  padding-bottom: 0.3125rem;
+}
+
+.product-name {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 18px;
+  height: 35px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.product-price {
+  font-size: 15px;
+  margin-top: -30px;
+  margin-bottom: 15px;
+}
+
+.img-product {
+  width: 200px;
+  height: 160px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.list-nota-customer {
+  list-style-type: none;
+}
+
+.isi-list-alamat {
+  list-style-position: outside;
+  margin-left: -100px;
+}
+
+.footer-padding {
+  padding-top: 10px;
+  padding-bottom: 16rem;
+}
+
+.gazette-btn {
+    min-width: 200px;
+    border: 2px solid #fff;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 54px;
+    line-height: 50px;
+    padding: 0 15px;
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.gazette-btn > i {
+    padding-left: 10px;
+}
+
+.gazette-btn:hover,
+.gazette-btn:focus {
+    font-weight: 400;
+    border: 2px solid #ff0303;
+    color: #ff0303;
